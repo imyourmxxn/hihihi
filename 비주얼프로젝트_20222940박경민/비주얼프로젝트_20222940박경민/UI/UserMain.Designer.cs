@@ -1,6 +1,6 @@
 ﻿namespace 비주얼프로젝트_20222940박경민.UI
 {
-    partial class User_Main
+    partial class UserMain
     {
         /// <summary>
         /// Required designer variable.

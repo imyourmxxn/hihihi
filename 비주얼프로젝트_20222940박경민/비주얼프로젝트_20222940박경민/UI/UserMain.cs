@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 비주얼프로젝트_20222940박경민.UI
 {
-    public partial class User_Main : Form
+    public partial class UserMain : Form
     {
-        public User_Main()
+        public UserMain()
         {
             InitializeComponent();
         }
