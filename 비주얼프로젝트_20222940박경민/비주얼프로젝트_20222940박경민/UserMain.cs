@@ -12,7 +12,7 @@ namespace 비주얼프로젝트_20222940박경민
 {
     public partial class UserMain : Form
     {
-        public UserMain()
+        public UserMain()'
         {
             InitializeComponent();
         }
