@@ -194,8 +194,7 @@ namespace 비주얼프로젝트_20222940박경민
                 iby.InbodyBmi= lvi.SubItems[4].Text;
                 iby.InbodyFatRate = lvi.SubItems[5].Text;
 
-                sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}",iby.InbodyDate iby.InbodyWeight, iby.InbodyMuscle,iby.InbodyFat,
-                    iby.InbodyBmi, iby.InbodyFatRate);
+                sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}",iby.InbodyDate,iby.InbodyWeight, iby.InbodyMuscle,iby.InbodyFat,iby.InbodyBmi, iby.InbodyFatRate);
             }
             sw.Close();
             fs.Close();

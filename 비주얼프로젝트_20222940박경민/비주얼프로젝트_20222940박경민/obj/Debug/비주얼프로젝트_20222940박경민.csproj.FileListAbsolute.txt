@@ -14,3 +14,19 @@ C:\Users\ASIC\source\repos\비주얼프로젝트_20222940박경민\비주얼프�
 C:\Users\ASIC\source\repos\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.InbodyManage.resources
 C:\Users\ASIC\source\repos\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.MemoManage.resources
 C:\Users\ASIC\source\repos\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.TrainerLogin.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.csproj.AssemblyReference.cache
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.register.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.TrainerLogin.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.GoodsManage.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.InbodyManage.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.MemManage.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.Main.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.MemoManage.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.Properties.Resources.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.csproj.GenerateResource.cache
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.csproj.CoreCompileInputs.cache
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.exe
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.pdb
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\bin\Debug\비주얼프로젝트_20222940박경민.exe.config
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\bin\Debug\비주얼프로젝트_20222940박경민.exe
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\bin\Debug\비주얼프로젝트_20222940박경민.pdb
