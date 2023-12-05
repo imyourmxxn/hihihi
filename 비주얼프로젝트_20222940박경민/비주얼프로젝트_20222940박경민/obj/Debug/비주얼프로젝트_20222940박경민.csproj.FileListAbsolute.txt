@@ -47,3 +47,7 @@ C:\Users\ASIC\Desktop\Github Backup\hihihi\비주얼프로젝트_20222940박경�
 C:\Users\ASIC\Desktop\Github Backup\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.csproj.CoreCompileInputs.cache
 C:\Users\ASIC\Desktop\Github Backup\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.exe
 C:\Users\ASIC\Desktop\Github Backup\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.pdb
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.PtSchedule.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.TrainerEvent.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.UI.EventRegister.resources
+C:\Users\MINSEOK\Desktop\Github BackUp\hihihi\비주얼프로젝트_20222940박경민\비주얼프로젝트_20222940박경민\obj\Debug\비주얼프로젝트_20222940박경민.UserMain.resources

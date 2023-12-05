@@ -48,7 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Goods.cs" />
+=======
+>>>>>>> 114e70c602d00399d8a0b6f8b78210ba0bce9ed6
     <Compile Include="PtSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
