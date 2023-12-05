@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Goods.cs" />
+    <Compile Include="UI\EventRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EventRegister.Designer.cs">
+      <DependentUpon>EventRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\LOGIN\register.cs">
       <SubType>Form</SubType>
     </Compile>
