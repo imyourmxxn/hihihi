@@ -33,21 +33,22 @@ namespace 비주얼프로젝트_20222940박경민
                 System.IO.StreamWriter file;
                 if (check)
                 {
-                    file = new System.IO.StreamWriter(@"admin_login.csv");
+                    file = new System.IO.StreamWriter(".\\admin_login.csv", true);
                 }
                 else
                 {
-                    file = new System.IO.StreamWriter(@"user_login.csv");
+                    file = new System.IO.StreamWriter(".\\user_login.csv", true);
                 }
-                file.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}", data[0], data[1], data[2], data[3], data[4], data[5], data[6]);
+                file.WriteLine("{0},{1},{2},{3},{4},{5},{6}", data[0], data[1], data[2], data[3], data[4], data[5], data[6]);
+                file.Close();
+                if (MessageBox.Show("회원가입을 환영합니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
+                {
+                    this.Close();
+                }
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message, "오류",MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            if(MessageBox.Show("회원가입을 환영합니다.", "알림",MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
-            {
-                this.Close();
             }
         }
     }

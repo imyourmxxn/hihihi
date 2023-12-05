@@ -48,9 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <Compile Include="Goods.cs" />
     <Compile Include="PtSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,7 +60,6 @@
     <Compile Include="TrainerEvent.Designer.cs">
       <DependentUpon>TrainerEvent.cs</DependentUpon>
     </Compile>
->>>>>>> 1e8d2a084cba572c042ccbf7b4edccfd4cdbb1c2
     <Compile Include="UI\EventRegister.cs">
       <SubType>Form</SubType>
     </Compile>
