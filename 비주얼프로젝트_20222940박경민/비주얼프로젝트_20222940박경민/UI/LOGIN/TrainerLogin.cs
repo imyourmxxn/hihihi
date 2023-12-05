@@ -25,7 +25,7 @@ namespace 비주얼프로젝트_20222940박경민
                 bool login = false;
                 try
                 {
-                    System.IO.StreamReader file = new System.IO.StreamReader("\\Resources\\user_login.csv");
+                    System.IO.StreamReader file = new System.IO.StreamReader(@"user_login.csv");
                     while (!file.EndOfStream)
                     {
                         string line = file.ReadLine();
@@ -49,7 +49,11 @@ namespace 비주얼프로젝트_20222940박경민
                 }
                 else
                 {
+<<<<<<< HEAD
                     UserMain user_mainpage = new UserMain();
+=======
+                    UI.UserMain user_mainpage = new UI.UserMain();
+>>>>>>> 1e8d2a084cba572c042ccbf7b4edccfd4cdbb1c2
                     user_mainpage.Show();
                     this.Hide();
                 }
@@ -59,7 +63,7 @@ namespace 비주얼프로젝트_20222940박경민
                 bool login = false;
                 try
                 {
-                    System.IO.StreamReader file = new System.IO.StreamReader("\\Resources\\admin_login.csv");
+                    System.IO.StreamReader file = new System.IO.StreamReader(@"admin_login.csv");
                     while (!file.EndOfStream)
                     {
                         string line = file.ReadLine();
@@ -83,9 +87,8 @@ namespace 비주얼프로젝트_20222940박경민
                 }
                 else
                 {
-                    Main Main_mainpage = new Main();
-                    Main_mainpage.Show();
-                    this.Hide();
+                    User_Main user_mainpage = new User_Main();
+                    user_mainpage.Show();
                 }
             }
         }

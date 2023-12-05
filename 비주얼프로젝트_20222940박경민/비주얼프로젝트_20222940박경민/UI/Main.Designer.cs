@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.MainBox = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +39,8 @@
             this.btnConectGoodsManage = new System.Windows.Forms.Button();
             this.btnConnectWrite = new System.Windows.Forms.Button();
             this.btnConectMemManage = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.MainBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,25 +66,6 @@
             this.MainBox.TabStop = false;
             this.MainBox.Text = "🏋헬스장 관리 프로그램🏋";
             this.MainBox.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("굴림", 12F);
-            this.label6.Location = new System.Drawing.Point(506, 369);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 16);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "PT스케줄관리";
-            // 
-            // button1
-            // 
-            this.button1.Image = global::비주얼프로젝트_20222940박경민.Properties.Resources.게시판;
-            this.button1.Location = new System.Drawing.Point(492, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 141);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -186,6 +167,25 @@
             this.btnConectMemManage.UseVisualStyleBackColor = true;
             this.btnConectMemManage.Click += new System.EventHandler(this.btnConectMemManage_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("굴림", 12F);
+            this.label6.Location = new System.Drawing.Point(506, 369);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(106, 16);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "PT스케줄관리";
+            // 
+            // button1
+            // 
+            this.button1.Image = global::비주얼프로젝트_20222940박경민.Properties.Resources.게시판;
+            this.button1.Location = new System.Drawing.Point(492, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 141);
+            this.button1.TabIndex = 10;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -193,7 +193,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.MainBox);
             this.Name = "Main";
-            this.Text = "관리자 창";
+            this.Text = "         /";
             this.MainBox.ResumeLayout(false);
             this.MainBox.PerformLayout();
             this.ResumeLayout(false);

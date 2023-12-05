@@ -26,7 +26,8 @@ namespace 비주얼프로젝트_20222940박경민
         public string Tel { get; set; }
         public string Gender { get; set; }
     }
-    public class Inbody
+}
+public class Inbody
     {
         public string InbodyDate { get; set; }
         public string InbodyWeight { get; set; }
@@ -47,7 +48,9 @@ namespace 비주얼프로젝트_20222940박경민
     class Customer : Human
     {
 
-    } 
+    }
+
+    class 
     internal static class Program
     {
         /// <summary>
