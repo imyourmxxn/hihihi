@@ -95,9 +95,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="EventRegister.resx">
-      <DependentUpon>EventRegister.cs</DependentUpon>
-    </EmbeddedResource>
     <Compile Include="UI\User_Main.cs">
       <SubType>Form</SubType>
     </Compile>
