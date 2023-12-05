@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Goods.cs" />
     <Compile Include="UI\EventRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,14 +71,12 @@
     <Compile Include="UI\GoodsManage.Designer.cs">
       <DependentUpon>GoodsManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inbody.cs" />
     <Compile Include="UI\InbodyManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\InbodyManage.Designer.cs">
       <DependentUpon>InbodyManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member.cs" />
     <Compile Include="UI\MemManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,7 +89,6 @@
     <Compile Include="UI\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Memo.cs" />
     <Compile Include="UI\MemoManage.cs">
       <SubType>Form</SubType>
     </Compile>

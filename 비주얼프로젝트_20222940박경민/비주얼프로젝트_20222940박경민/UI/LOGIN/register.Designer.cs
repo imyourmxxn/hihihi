@@ -72,7 +72,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "회원가입";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // chkTrainer
             // 
@@ -108,6 +107,7 @@
             this.btnRegister.TabIndex = 12;
             this.btnRegister.Text = "회원가입";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // txtUserGender
             // 
@@ -204,7 +204,6 @@
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "아이디";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // register
             // 
@@ -213,7 +212,7 @@
             this.ClientSize = new System.Drawing.Size(470, 488);
             this.Controls.Add(this.groupBox1);
             this.Name = "register";
-            this.Text = "register";
+            this.Text = "회원가입";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
