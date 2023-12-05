@@ -29,17 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtMemo = new System.Windows.Forms.TextBox();
-            this.btnEnter = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnFux = new System.Windows.Forms.Button();
+            this.txtSave = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.ColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.txtSave = new System.Windows.Forms.Button();
-            this.btnFux = new System.Windows.Forms.Button();
-            this.btnDel = new System.Windows.Forms.Button();
+            this.btnEnter = new System.Windows.Forms.Button();
+            this.txtMemo = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,46 +62,32 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "메모장";
             // 
-            // label1
+            // btnDel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "날짜";
+            this.btnDel.Location = new System.Drawing.Point(570, 339);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(75, 23);
+            this.btnDel.TabIndex = 9;
+            this.btnDel.Text = "삭제";
+            this.btnDel.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // btnFux
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(117, 60);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
-            this.dateTimePicker1.TabIndex = 2;
+            this.btnFux.Location = new System.Drawing.Point(489, 339);
+            this.btnFux.Name = "btnFux";
+            this.btnFux.Size = new System.Drawing.Size(75, 23);
+            this.btnFux.TabIndex = 8;
+            this.btnFux.Text = "수정";
+            this.btnFux.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // txtSave
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "메모내용";
-            // 
-            // txtMemo
-            // 
-            this.txtMemo.Location = new System.Drawing.Point(117, 87);
-            this.txtMemo.Name = "txtMemo";
-            this.txtMemo.Size = new System.Drawing.Size(200, 21);
-            this.txtMemo.TabIndex = 4;
-            // 
-            // btnEnter
-            // 
-            this.btnEnter.Location = new System.Drawing.Point(337, 87);
-            this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(51, 23);
-            this.btnEnter.TabIndex = 5;
-            this.btnEnter.Text = "입력";
-            this.btnEnter.UseVisualStyleBackColor = true;
+            this.txtSave.Location = new System.Drawing.Point(408, 339);
+            this.txtSave.Name = "txtSave";
+            this.txtSave.Size = new System.Drawing.Size(75, 23);
+            this.txtSave.TabIndex = 7;
+            this.txtSave.Text = "저장";
+            this.txtSave.UseVisualStyleBackColor = true;
             // 
             // listView1
             // 
@@ -126,32 +113,52 @@
             this.ColumnHeader1.Text = "메모내용";
             this.ColumnHeader1.Width = 478;
             // 
-            // txtSave
+            // btnEnter
             // 
-            this.txtSave.Location = new System.Drawing.Point(408, 339);
-            this.txtSave.Name = "txtSave";
-            this.txtSave.Size = new System.Drawing.Size(75, 23);
-            this.txtSave.TabIndex = 7;
-            this.txtSave.Text = "저장";
-            this.txtSave.UseVisualStyleBackColor = true;
+            this.btnEnter.Location = new System.Drawing.Point(337, 87);
+            this.btnEnter.Name = "btnEnter";
+            this.btnEnter.Size = new System.Drawing.Size(51, 23);
+            this.btnEnter.TabIndex = 5;
+            this.btnEnter.Text = "입력";
+            this.btnEnter.UseVisualStyleBackColor = true;
             // 
-            // btnFux
+            // txtMemo
             // 
-            this.btnFux.Location = new System.Drawing.Point(489, 339);
-            this.btnFux.Name = "btnFux";
-            this.btnFux.Size = new System.Drawing.Size(75, 23);
-            this.btnFux.TabIndex = 8;
-            this.btnFux.Text = "수정";
-            this.btnFux.UseVisualStyleBackColor = true;
+            this.txtMemo.Location = new System.Drawing.Point(117, 87);
+            this.txtMemo.Name = "txtMemo";
+            this.txtMemo.Size = new System.Drawing.Size(200, 21);
+            this.txtMemo.TabIndex = 4;
             // 
-            // btnDel
+            // label2
             // 
-            this.btnDel.Location = new System.Drawing.Point(570, 339);
-            this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(75, 23);
-            this.btnDel.TabIndex = 9;
-            this.btnDel.Text = "삭제";
-            this.btnDel.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(58, 90);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "메모내용";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(117, 60);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(82, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "날짜";
+            // 
+            // directorySearcher1
+            // 
+            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
             // EventRegister
             // 
@@ -181,5 +188,6 @@
         private System.Windows.Forms.TextBox txtMemo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.DirectoryServices.DirectorySearcher directorySearcher1;
     }
 }

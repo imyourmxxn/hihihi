@@ -49,7 +49,11 @@ namespace 비주얼프로젝트_20222940박경민
                 }
                 else
                 {
+<<<<<<< HEAD
                     UserMain user_mainpage = new UserMain();
+=======
+                    UI.UserMain user_mainpage = new UI.UserMain();
+>>>>>>> 1e8d2a084cba572c042ccbf7b4edccfd4cdbb1c2
                     user_mainpage.Show();
                     this.Hide();
                 }

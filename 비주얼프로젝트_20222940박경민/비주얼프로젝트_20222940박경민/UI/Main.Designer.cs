@@ -39,11 +39,15 @@
             this.btnConectGoodsManage = new System.Windows.Forms.Button();
             this.btnConnectWrite = new System.Windows.Forms.Button();
             this.btnConectMemManage = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.MainBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainBox
             // 
+            this.MainBox.Controls.Add(this.label6);
+            this.MainBox.Controls.Add(this.button1);
             this.MainBox.Controls.Add(this.label5);
             this.MainBox.Controls.Add(this.label4);
             this.MainBox.Controls.Add(this.label3);
@@ -77,7 +81,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 12F);
-            this.label4.Location = new System.Drawing.Point(406, 369);
+            this.label4.Location = new System.Drawing.Point(317, 369);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 16);
             this.label4.TabIndex = 8;
@@ -87,7 +91,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 12F);
-            this.label3.Location = new System.Drawing.Point(240, 369);
+            this.label3.Location = new System.Drawing.Point(154, 369);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 16);
             this.label3.TabIndex = 7;
@@ -126,7 +130,7 @@
             // btnConnectInbody
             // 
             this.btnConnectInbody.Image = global::비주얼프로젝트_20222940박경민.Properties.Resources.운동2;
-            this.btnConnectInbody.Location = new System.Drawing.Point(400, 225);
+            this.btnConnectInbody.Location = new System.Drawing.Point(311, 225);
             this.btnConnectInbody.Name = "btnConnectInbody";
             this.btnConnectInbody.Size = new System.Drawing.Size(136, 141);
             this.btnConnectInbody.TabIndex = 3;
@@ -146,7 +150,7 @@
             // btnConnectWrite
             // 
             this.btnConnectWrite.Image = global::비주얼프로젝트_20222940박경민.Properties.Resources.게시판;
-            this.btnConnectWrite.Location = new System.Drawing.Point(213, 225);
+            this.btnConnectWrite.Location = new System.Drawing.Point(127, 225);
             this.btnConnectWrite.Name = "btnConnectWrite";
             this.btnConnectWrite.Size = new System.Drawing.Size(136, 141);
             this.btnConnectWrite.TabIndex = 1;
@@ -162,6 +166,25 @@
             this.btnConectMemManage.TabIndex = 0;
             this.btnConectMemManage.UseVisualStyleBackColor = true;
             this.btnConectMemManage.Click += new System.EventHandler(this.btnConectMemManage_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("굴림", 12F);
+            this.label6.Location = new System.Drawing.Point(506, 369);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(106, 16);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "PT스케줄관리";
+            // 
+            // button1
+            // 
+            this.button1.Image = global::비주얼프로젝트_20222940박경민.Properties.Resources.게시판;
+            this.button1.Location = new System.Drawing.Point(492, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 141);
+            this.button1.TabIndex = 10;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Main
             // 
@@ -190,5 +213,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
